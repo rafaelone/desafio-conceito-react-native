@@ -52,7 +52,7 @@ export default function App() {
                 <View style={styles.techsContainer}>
                   {repository.techs.map((tech) => (
                     <Text style={styles.tech} key={tech}>
-                      ReactJS
+                      {tech}
                     </Text>
                   ))}
                 </View>
